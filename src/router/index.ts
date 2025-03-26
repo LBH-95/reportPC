@@ -1,4 +1,9 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
+import {
+  createRouter,
+  createWebHistory,
+  createWebHashHistory,
+  RouteRecordRaw,
+} from "vue-router";
 import Home from "@/views/home/index.vue";
 import Login from "@/views/login/index.vue";
 import { MailOutlined, DesktopOutlined } from "@ant-design/icons-vue";
@@ -65,7 +70,7 @@ export const routes: Array<RouteRecordRaw> = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes,
 });
 
