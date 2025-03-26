@@ -6,7 +6,9 @@
       collapsible
       width="230"
     >
-      <div class="logo">{{ collapsed ? "v1.0" : "工程进度填报系统 v1.0" }}</div>
+      <div class="logo">
+        {{ collapsed ? "v1.0" : "kk工程进度填报系统 v1.0" }}
+      </div>
       <mainMenu></mainMenu>
     </a-layout-sider>
     <a-layout>
