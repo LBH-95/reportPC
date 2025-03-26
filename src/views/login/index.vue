@@ -3,7 +3,7 @@
     <canvas id="canvas" style="display: block"></canvas>
     <div class="loginBox">
       <div class="loginTitle">
-        <h1>kk工程进度填报系统 v1.0</h1>
+        <h1>kk11工程进度填报系统 v1.0</h1>
         <!-- <p>Strive Everyday</p> -->
       </div>
       <div class="loginForm">
