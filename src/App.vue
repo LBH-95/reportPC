@@ -7,6 +7,7 @@ const locale = ref(zhCN.locale);
 
 <template>
   <a-config-provider :locale="locale === 'en' ? enUS : zhCN">
+    <div>123</div>
     <div>
       <router-view></router-view>
     </div>
